@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="450px" height="56px" viewBox="0 0 450 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Searchbox</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="450" height="56" rx="4"></rect>
+        <filter x="-0.2%" y="-1.8%" width="100.4%" height="103.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.4 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Docs-Index" transform="translate(-250.000000, -384.000000)">
+            <g id="Searchbox" transform="translate(250.000000, 384.000000)">
+                <g id="Input">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <rect stroke="#DDDDDD" stroke-width="1" x="0.5" y="0.5" width="449" height="55" rx="4"></rect>
+                </g>
+                <g id="Icon-search" transform="translate(414.000000, 18.000000)" stroke="#DDDDDD" stroke-width="2">
+                    <path d="M13,13 L20,20" id="Stroke-5" stroke-linecap="round"></path>
+                    <path d="M12.9497475,12.9497491 C15.6834174,10.216076 15.6834174,5.78392233 12.9497479,3.05025256 C10.2160786,0.316582545 5.78391928,0.316582545 3.05025279,3.05025275 C0.316582338,5.78392243 0.316582338,10.2160759 3.05025331,12.9497491 C5.78391923,15.6834182 10.2160786,15.6834182 12.9497479,12.9497487 Z" id="Stroke-5"></path>
+                </g>
+                <text id="Search-the-docs" font-family="OpenSans, Open Sans" font-size="16" font-weight="normal" line-spacing="30" fill="#B1B8C1">
+                    <tspan x="16" y="31">Search the docs</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

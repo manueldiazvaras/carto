@@ -1,0 +1,144 @@
+/* Cart test  */
+/* ========================================================================
+   Customized
+ ========================================================================== */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #f9f9f9;
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+}
+html, body-blue {
+  height: 100%;
+}
+
+.body-blue {
+    background-color: #202545;
+}
+
+header {
+  width: 100%;
+}
+header nav {
+  width: 90%;
+  max-width: auto;
+  margin: 0px auto;
+  border-bottom: 1px solid #e6e6e6;
+}
+.menu_bar {
+  display: none;
+}
+header nav ul {
+  overflow: hidden;
+  list-style: none;
+}
+header nav ul li {
+  float: left;
+  padding: 20px;
+}
+header nav ul li a {
+  color: #383838;
+  display: block;
+
+  text-decoration: none;
+}
+header nav ul li span {
+  margin-right: 10px;
+}
+
+header nav ul li a:hover {
+  /* background: #037E8C; */
+}
+.menu-left {
+  position: relative;
+  float:left;
+  left: 13%;
+}
+.menu-right {
+  position: relative;
+  left:27%;
+  text-align: right;
+}
+section {
+  padding: 20px;
+}
+@media screen and (max-width: 800px) {
+  header nav {
+    width: 80%;
+    height: 100%;
+    left: -100%;
+    margin: 0;
+    position: fixed;
+  }
+  header nav ul li {
+    display: block;
+    float: none;
+    border-bottom: 1px solid rgba(255,255,255, .3);
+    margin: 20px;
+  }
+  .menu_bar {
+    display: block;
+    width:100%;
+    background: #ccc;
+  }
+  .menu_bar .bt-menu {
+    display:block;
+    padding: 20px;
+    background: #024959;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:25px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;;
+    box-sizing: border-box;;
+  }
+  .menu_bar span {
+    float: right;
+    font-size: 30px;
+  }
+}
+
+
+a:link   
+{   
+ text-decoration:none !important;   
+}
+
+.white-text {
+  color: #fff;
+}
+.vertical-align {
+  position: relative;
+  top: 45%;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+.menu-size {
+  font-size: 12px;
+}
+.large {
+  font-size: 125px;
+}
+.medium {
+  font-size: 50px;
+}
+.small {
+  font-size: 25px;
+}
+.image-size {
+  width: 90%;
+}
+
+

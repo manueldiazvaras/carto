@@ -1,0 +1,302 @@
+/* Cart test  */
+/* ========================================================================
+   Customized
+ ========================================================================== */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #f9f9f9;
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+}
+html, body-blue {
+  height: 100%;
+}
+.body-blue {
+    background-color: #202545;
+}
+a:link   
+{   
+ text-decoration:none !important;   
+}
+.carto-green {
+  color: #0fb202;
+}
+
+/* ========================================================================
+   TYPOGRAPHY
+ ========================================================================== */
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.white-text {
+  color: #fff;
+}
+.grey-text {
+  color: #888888;
+}
+.vertical-align {
+  position: relative;
+  top: 35%;
+}
+/* TYPOGRAPHY SIZES  */
+.x-large {
+  font-size: 125px;
+  line-height: 140px;
+}
+.large {
+  font-size: 65px;
+  line-height: 80px;
+}
+.medium {
+  font-size: 30px;
+  line-height: 40px;
+}
+.small {
+  font-size: 14px;
+  line-height: 20px;
+}
+.x-small {
+  font-size: 12px;
+  line-height: 18px;
+}
+.negrita {
+  font-weight: bold;
+}
+.menu-size {
+  font-size: 12px;
+}
+/* FONT WEIGHT  */
+
+.cien {
+  font-weight: 100;
+}
+.doscientos {
+  font-weight: 200;
+}
+.trescientos {
+  font-weight: 300;
+}
+.cuatrocientos {
+  font-weight: 400;
+}
+.quinientos {
+  font-weight: 500;
+}
+/* TYPOGRAPHY COLORS  */
+.white-text {
+  color: #fff;
+}
+.grey-text {
+  color: #888888;
+}
+
+/* ========================================================================
+    HEADER NAV
+ ========================================================================== */
+header {
+  width: 100%;
+}
+header nav {
+  width: 90%;
+  max-width: auto;
+  margin: 5px auto;
+  border-bottom: 1px solid #e6e6e6;
+  background-color: #fff;
+}
+header nav ul {
+  overflow: hidden;
+  list-style: none;
+}
+header nav ul li {
+  float: left;
+  padding: 11px 20px 10px 15px;
+}
+header nav ul li a {
+  color: #383838;
+  display: block;
+  text-decoration: none;
+}
+header nav ul li span {
+  margin-right: 0px;
+}
+
+header nav ul li a:hover {
+  /* background: #037E8C; */
+}
+/* ========================================================================
+    MAIN MENU VARIATIONS
+ ========================================================================== */
+.menu-left {
+  margin-left: 14%;
+}
+.menu_bar {
+  display: none;
+}
+.menu-margin {
+  margin-top: 10px;
+}
+/* submenu list*/
+.navlist li {
+  position: relative;
+  display: inline;
+  top: 20px;
+  padding-right: 40px;
+  left: 19%;
+}
+/* ========================================================================
+    customized hr
+ ========================================================================== */
+hr {
+  position: relative;
+  height: 10px;
+  top: 10px;
+  width: 60%;
+  left: 20%;
+}
+
+/* ========================================================================
+    SECTION
+ ========================================================================== */
+
+section {
+  padding: 40px 20% 20px 20%;
+}
+
+/* SEARCHBOX MARGIN */
+.margin-searchbox {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.title-margin {
+  margin: 50px 0px 15px 0px;
+}
+
+/* ========================================================================
+    MOBILE MENU 
+ ========================================================================== */
+
+@media screen and (max-width: 480px) {
+  header nav {
+    width: 80%;
+    height: 100%;
+    left: -100%;
+    margin: 0;
+    position: fixed;
+  }
+  header nav ul li {
+    display: block;
+    float: none;
+    border-bottom: 1px solid rgba(255,255,255, .3);
+    margin: 20px;
+  }
+  .menu_bar {
+    display: block;
+    width:100%;
+    background: #ccc;
+  }
+  .menu_bar .bt-menu {
+    display:block;
+    padding: 20px;
+    background: #024959;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:25px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;;
+    box-sizing: border-box;;
+  }
+  .menu_bar span {
+    float: right;
+    font-size: 30px;
+  }
+}
+
+/* ========================================================================
+    MD PANEL BOX
+ ========================================================================== */
+.md-panel-box {
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 1px 1px 2px #e3e3e3;
+}
+.md-panel-box-down-margin {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+
+/* ========================================================================
+    ICONS
+ ========================================================================== */
+
+.icon-margin-right {
+  margin-right: 15px;
+}
+
+.logo-index-margin {
+  position: relative;
+  top: 20%;
+}
+/* ========================================================================
+    WRAPPER with SCROLL MENU
+ ========================================================================== */
+
+.wrapper {
+  display: block;
+  width: 90%;
+  /*border: 1px solid #f0f0f0;*/
+  margin-left: auto;
+  margin-right: auto;
+  height: 90%;
+}
+.scroll {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.menu-top-1 {
+  margin-top: 34%;
+}
+.menu-top-2 {
+  margin-top: 5%;
+}
+.menu-top-3 {
+  margin-top: 34%;
+}
+.full-height {
+  height: 100%;
+}
+.clean-list {
+  list-style:none;
+  margin-left: 0px;
+}
+.list-height {
+  line-height: 50px;
+  line-height: 3ex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
