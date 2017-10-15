@@ -1,15 +1,58 @@
-			<div class="menu_bar">
-				<a href="#" class="bt-menu"><span class="icon-menu"></span>Menu</a>
-			</div>
- 
-			<nav>
-				<ul class="montserrat menu-size menu-left">
-					<li><a href="index.php"><img class="image-margin-top" src="images/logo.svg"/></a></li>
-					<li class="menu-margin">Builder</li>
-					<li class="menu-margin">Engine</li>
-					<li class="menu-margin">Solutions</li>
-					<li class="menu-margin">Pricing</li>
-					<li class="menu-margin">Blog</li>
-				</ul>
+<!-- MAIN MENU RESPONSIVE -->
+<div class="menu_bar uk-align-center" data-uk-sticky>
+    <div class="uk-grid">
 
-			</nav>
+        <!-- LOGOTIPO -->
+        <div class="uk-width-3-4">
+            <a href="http://manueldiaz.com/carto/index.php"><img src="http://manueldiaz.com/carto/images/logo-negro.svg" width="125px"/></a>
+        </div>
+
+        <!-- MENU ICON -->
+        <div class="uk-width-1-4 md-margin-menu-icon">
+            <a class="" href="" data-uk-offcanvas="{target:'#offcanvas-3'}"><i class="uk-icon uk-icon-medium uk-icon-navicon"></i></a>
+        </div>
+
+    </div>
+</div>
+
+<!-- OFFCANVAS MAIN MENU -->
+<div id="offcanvas-3" class="uk-offcanvas">
+
+    <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
+
+        <ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav>
+            <li class="uk-nav-header">Portfolio manuel Díaz</li>
+
+
+            <li class="uk-parent">
+                <a href="#">Documentation</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="#">Introduction</a></li>
+                        <li><a href="#">Documentation 1</a></li>
+                        <li><a href="#">Documentation 2</a></li>
+                    </ul>
+            </li>
+
+            <li class="uk-parent">
+                <a href="#">Related content</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="#">Related content 1</a></li>
+                        <li><a href="#">Related content 2</a></li>
+                    </ul>
+            </li>
+
+
+        </ul>
+    </div>
+</div>
+
+<!-- MAIN MENU HEADER -->
+<nav>
+    <ul class="montserrat menu-size menu-left">
+        <li><a href="http://manueldiaz.com/carto/index.php"><img class="image-margin-top" src="http://manueldiaz.com/carto/images/logo.svg" width="125px"/></a></li>
+        <li class="menu-margin">Builder</li>
+        <li class="menu-margin">Engine</li>
+        <li class="menu-margin">Solutions</li>
+        <li class="menu-margin">Blog</li>
+    </ul>
+</nav>

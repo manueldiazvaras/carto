@@ -1,0 +1,64 @@
+
+/* ========================================================================
+   RESPONSIVE MENU MANUEL
+ ========================================================================== */
+
+/* BIG SCREEN */
+@media screen and (min-width: 1274px) {
+  .menu_bar {
+    display: none;
+  }
+}
+
+ /* DESKTOP */
+@media screen and (max-width: 1274px) {
+  .menu_bar {
+    display: none;
+  }
+  .hidden-section-3 {
+    display: none;
+  }
+  .section-2 {
+    width:75% !important;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+}
+
+ /* TABLET */
+@media screen and (max-width: 959px) { 
+  nav {
+    display:none;
+  } 
+  .hidden-section-1 {
+    display: none;
+  }
+  .section-2 {
+    width:95% !important;
+    margin-left: 60px;
+    padding-left: 0px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-top: 0px;
+  }
+  .menu_bar {
+    display: block;
+    width:84%;
+    background: #fff;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 30px;
+    border-bottom: 1px solid #e6e6e6;
+    z-index:999;
+  }
+  .navlist li {
+    position: relative;
+    display: inline;
+    top: 20px;
+    padding-right: 40px;
+    left: 0% !important;
+  }
+}

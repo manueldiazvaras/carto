@@ -1,4 +1,4 @@
-/* Cart test  */
+/* CARTO TEST  */
 /* ========================================================================
    Customized
  ========================================================================== */
@@ -17,10 +17,28 @@ html, body-blue {
 .body-blue {
     background-color: #202545;
 }
-a:link   
-{   
- text-decoration:none !important;   
+
+/* unvisited link */
+a:link {
+ text-decoration:none;
+  color: #888888;
 }
+
+/* visited link */
+a:visited {
+ text-decoration:none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #0fb202;
+}
+
+/* selected link */
+a:active {
+  color: #0fb202;
+}
+
 .carto-green {
   color: #0fb202;
 }
@@ -61,19 +79,24 @@ a:link
   font-size: 30px;
   line-height: 40px;
 }
+.m-large {
+  font-size: 20px;
+  line-height: 30px;
+}
 .small {
   font-size: 14px;
   line-height: 20px;
 }
 .x-small {
   font-size: 12px;
-  line-height: 18px;
+  line-height: 20px;
 }
 .negrita {
   font-weight: bold;
 }
 .menu-size {
   font-size: 12px;
+  line-height: 20px;
 }
 /* FONT WEIGHT  */
 
@@ -139,9 +162,6 @@ header nav ul li a:hover {
 .menu-left {
   margin-left: 14%;
 }
-.menu_bar {
-  display: none;
-}
 .menu-margin {
   margin-top: 10px;
 }
@@ -168,58 +188,15 @@ hr {
     SECTION
  ========================================================================== */
 
-section {
-  padding: 40px 20% 20px 20%;
-}
+
 
 /* SEARCHBOX MARGIN */
 .margin-searchbox {
-  margin-top: 40px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 .title-margin {
   margin: 50px 0px 15px 0px;
-}
-
-/* ========================================================================
-    MOBILE MENU 
- ========================================================================== */
-
-@media screen and (max-width: 480px) {
-  header nav {
-    width: 80%;
-    height: 100%;
-    left: -100%;
-    margin: 0;
-    position: fixed;
-  }
-  header nav ul li {
-    display: block;
-    float: none;
-    border-bottom: 1px solid rgba(255,255,255, .3);
-    margin: 20px;
-  }
-  .menu_bar {
-    display: block;
-    width:100%;
-    background: #ccc;
-  }
-  .menu_bar .bt-menu {
-    display:block;
-    padding: 20px;
-    background: #024959;
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    font-size:25px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;;
-    box-sizing: border-box;;
-  }
-  .menu_bar span {
-    float: right;
-    font-size: 30px;
-  }
 }
 
 /* ========================================================================
@@ -249,6 +226,11 @@ section {
   position: relative;
   top: 20%;
 }
+.image-margin-top {
+  position: relative;
+  top: 3px;
+}
+
 /* ========================================================================
     WRAPPER with SCROLL MENU
  ========================================================================== */
@@ -265,15 +247,6 @@ section {
   overflow: scroll;
   overflow-x: hidden;
 }
-.menu-top-1 {
-  margin-top: 34%;
-}
-.menu-top-2 {
-  margin-top: 5%;
-}
-.menu-top-3 {
-  margin-top: 34%;
-}
 .full-height {
   height: 100%;
 }
@@ -282,19 +255,73 @@ section {
   margin-left: 0px;
 }
 .list-height {
-  line-height: 50px;
-  line-height: 3ex;
+  line-height: 30px;
 }
 
+.main-wrapper {
+  position:relative;
+  width:auto;
+  /*height:100vh;*/
+}
+section {
+  padding: 20px;
+  max-width: 80%;
+  margin-left: 10%;
+}
+.section-1 {
+  position:relative;
+  background-color: #f9f9f9;
+  padding-left: 70px;
+  padding-top: 78px;
+}
+.section-2 {
+  margin-top:5px;
+  background-color: #f9f9f9;
+  padding-left: 0px;
+  padding-right: 40px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.section-3 {
+  background-color: #f9f9f9;
+  padding-left: 140px;
+  padding-top: 78px;
+}
+.margin-alert {
+  padding: 20px; 
+}
 
-
-
-
-
-
-
-
-
+.md-margin-menu-icon {
+  text-align: right;
+  padding-right: 30px;
+}
+.md-margin-lead {
+  max-width: 70%;
+}
+.margin-line {
+  position:relative;
+  left: -3px;
+  top: -6px;
+}
+.centrar {
+    position: relative;
+    /*nos posicionamos en el centro del navegador*/
+    top:50%;
+    left:50%;
+    /*determinamos una anchura*/
+    width:400px;
+    /*indicamos que el margen izquierdo, es la mitad de la anchura*/
+    margin-left:-200px;
+    /*determinamos una altura*/
+    height:300px;
+    /*indicamos que el margen superior, es la mitad de la altura*/
+    margin-top:150px;
+    padding:5px;
+}
+.margin-li-section-3 {
+  margin-left: 28px;
+}
 
 
 
