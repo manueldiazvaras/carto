@@ -1,8 +1,9 @@
 <!DOCTYPE HTML>
-<html lang="es-es">
+<html lang="en-en">
 
 <head>
 <title>Introduction - Manuel Díaz</title>
+
 <!-- INSERT LINKS -->
 <?php 
     require_once ('/home/mdv31226572/public_html/carto/include/links.html');
@@ -10,28 +11,30 @@
 
 </head>
     <body>
-      	<header>
-      		<!-- INSERT MAIN MENU -->
-			<?php 
-    			require_once ('/home/mdv31226572/public_html/carto/include/header.html');
-			?>
+        <!-- MOBILE MENU -->
+        <?php 
+            require_once ('/home/mdv31226572/public_html/carto/include/mobile-menu.php');
+        ?>
 
-		</header>
-
-		    <!-- INSERT SUBMENU -->
-			<?php 
-    			require_once ('/home/mdv31226572/public_html/carto/include/submenu.html');
-			?>
-
-		<section>
-
-            <!-- INSERT DOCUMENTATION CONTENT -->
+        <header>
+            <!-- NAV MENU -->
             <?php 
-                require_once ('/home/mdv31226572/public_html/carto/include/intro.html');
+                require_once ('/home/mdv31226572/public_html/carto/include/header.php');
+            ?>
+        </header>
+
+            <!-- SUBMENU -->
+            <?php 
+                require_once ('/home/mdv31226572/public_html/carto/include/submenu.html');
             ?>
 
-		</section>
-
+        <section>
+            
+            <!-- CONTENT WRAPPER -->
+			<?php
+                require_once ('/home/mdv31226572/public_html/carto/include/intro.html');
+            ?>
+        </section>
     </body>
 </html>
 

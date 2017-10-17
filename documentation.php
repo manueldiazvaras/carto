@@ -10,25 +10,28 @@
 
 </head>
     <body>      
-        <header>
+        <!-- MOBILE MENU -->
+        <?php 
+            require_once ('/home/mdv31226572/public_html/carto/include/mobile-menu.php');
+        ?>
 
-            <!-- INSERT MAIN MENU HEADER -->
+            <!-- NAV MENU -->
             <?php 
-                require_once ('/home/mdv31226572/public_html/carto/include/header.html');
+                require_once ('/home/mdv31226572/public_html/carto/include/header.php');
             ?>
 
-            <!-- INSERT SUBMENU -->
-            <?php 
-                require_once ('/home/mdv31226572/public_html/carto/include/submenu.html');
-            ?>
 
-        </header>
+        <!-- SUBMENU -->
+        <?php 
+            require_once ('/home/mdv31226572/public_html/carto/include/submenu.html');
+        ?>
 
+        <section>
         <!-- CONTENT WRAPPER -->
         <div class="uk-grid main-wrapper">
 
             <!-- SECTION 1 || SIDE BAR LEFT -->
-            <div class="uk-width-1-4 section-1 hidden-section-1">
+            <div class="uk-width-1-4 section-1">
 
                 <!-- INSERT CONTENT: SECTION 1-->
                 <?php 
@@ -48,6 +51,7 @@
                     $id_page = substr($url, -5, 2);
                     $uri = $id_page;
 
+
                     // INSERT CONTENT: SECTION 2
                     if ($uri == "n.") {
                         $uri = "00";
@@ -62,7 +66,7 @@
             </div>
 
             <!-- SECTION 3 || SIDE BAR RIGHT -->
-            <div class="uk-width-1-4 section-3 hidden-section-3">
+            <div class="uk-width-1-4 section-3">
 
                 <!-- INSERT CONTENT: SECTION 3 -->
                 <?php 
@@ -72,6 +76,7 @@
             </div>
 
         </div>
+        </section>
     </body>
 </html>
 

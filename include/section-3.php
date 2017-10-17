@@ -1,9 +1,9 @@
 <?php
 
     // Select BBDD
-    require_once ('/home/mdv31226572/public_html/carto/source/bbdd/database_carto.php');
+    include ('/home/mdv31226572/public_html/carto/source/bbdd/database_carto.php');
     // Create connection
-    require_once ('/home/mdv31226572/public_html/carto/source/bbdd/create_connection.php');
+    require ('/home/mdv31226572/public_html/carto/source/bbdd/create_connection.php');
 
 ?>
 
@@ -26,12 +26,12 @@ if (mysqli_num_rows($result) > 0) {
 		$uri = $row["uri"];
 		$varius = $row["varius"];
 
-		echo '<a id=' . $uri . ' class="raleway cuatrocientos clean-list list-height x-small grey-text margin-li-section-3" href="documentation.php?id=\'' . $uri . '\'">' . $title . '</a><br />';
+		echo '<a id=' . $uri . ' class="raleway cuatrocientos x-small grey-text margin-li-section-3" href="documentation.php?id=\'' . $uri . '\'">' . $title . '</a><br />';
 
 		}
 
 	} else {
-		echo '<p class="raleway cuatrocientos clean-list list-height x-small grey-text margin-li-section-3">No Related content</p>';
+		echo '<p class="raleway cuatrocientos list-height x-small grey-text margin-li-section-3">No Related content</p>';
 }
 
 ?>

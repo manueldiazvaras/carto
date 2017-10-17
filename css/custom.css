@@ -21,12 +21,13 @@ html, body-blue {
 /* unvisited link */
 a:link {
  text-decoration:none;
-  color: #888888;
+  color: #4f4f4f;
 }
 
 /* visited link */
 a:visited {
  text-decoration:none;
+  color: #7e7e7e;
 }
 
 /* mouse over link */
@@ -36,7 +37,7 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: #0fb202;
+  color: #000;
 }
 
 .carto-green {
@@ -94,10 +95,6 @@ a:active {
 .negrita {
   font-weight: bold;
 }
-.menu-size {
-  font-size: 12px;
-  line-height: 20px;
-}
 /* FONT WEIGHT  */
 
 .cien {
@@ -123,56 +120,7 @@ a:active {
   color: #888888;
 }
 
-/* ========================================================================
-    HEADER NAV
- ========================================================================== */
-header {
-  width: 100%;
-}
-header nav {
-  width: 90%;
-  max-width: auto;
-  margin: 5px auto;
-  border-bottom: 1px solid #e6e6e6;
-  background-color: #fff;
-}
-header nav ul {
-  overflow: hidden;
-  list-style: none;
-}
-header nav ul li {
-  float: left;
-  padding: 11px 20px 10px 15px;
-}
-header nav ul li a {
-  color: #383838;
-  display: block;
-  text-decoration: none;
-}
-header nav ul li span {
-  margin-right: 0px;
-}
 
-header nav ul li a:hover {
-  /* background: #037E8C; */
-}
-/* ========================================================================
-    MAIN MENU VARIATIONS
- ========================================================================== */
-.menu-left {
-  margin-left: 14%;
-}
-.menu-margin {
-  margin-top: 10px;
-}
-/* submenu list*/
-.navlist li {
-  position: relative;
-  display: inline;
-  top: 20px;
-  padding-right: 40px;
-  left: 19%;
-}
 /* ========================================================================
     customized hr
  ========================================================================== */
@@ -183,11 +131,120 @@ hr {
   width: 60%;
   left: 20%;
 }
+/* ========================================================================
+   MOBILE MENU
+ ========================================================================== */
+.mobile-menu {
+  position: fixed;
+  display: block;
+  width:100%;
+  max-width: auto;
+  background: #fff;
+  height: 50px;
+  padding-top: 20px;
+  padding-left: 30px;
+  border-bottom: 1px solid #e6e6e6;
+  z-index:999;
+  margin-top: -15px;
+  margin-left: 0%;
+}
+
 
 /* ========================================================================
-    SECTION
+   NAV MENU
  ========================================================================== */
 
+
+.md-fixed-menu {
+  position: fixed;
+  width: 87%;
+  max-width: auto;
+  border-bottom: 1px solid #e6e6e6;
+  background-color: #fff;
+  height: 22px;
+  float: left;
+  padding: 7px 0px 45px 0px;
+  color: #383838;
+  z-index: 999;
+  left: 5%;
+  top: -5px;
+}
+/* submenu list*/
+.menulist li {
+  position: relative;
+  display: inline;
+  top: 20px;
+  padding-right: 40px;
+  left: 290px;
+}
+
+
+.menu-margin {
+  margin-top: 10px;
+}
+
+
+/* ========================================================================
+    SECTIONS
+ ========================================================================== */
+
+ /* main menu */
+ .md-margin-menu-icon {
+  text-align: right;
+  padding-right: 30px;
+}
+.md-margin-menu-icon {
+  text-align: right;
+  padding-right: 30px;
+}
+section {
+  display: block;
+  width: 92%;
+  margin: 100px 0px 0px 50px;
+}
+
+.section-1 {
+  margin-top: 160px;
+  margin-left: 45px;
+  position: fixed;
+  background-color: #f9f9f9;
+  padding-left: 0px;
+  padding-top: 0px;
+  overflow: scroll;
+  overflow-x:hidden;
+  height: 40%;
+  width: 230px;
+}
+.section-2 {
+  width: 63%;
+  margin-left: 330px;
+  margin-top: 0px;
+  background-color: #f9f9f9;
+  padding-left: 0px;
+  padding-right: 5%;
+  padding-top: 45px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.md-margin-lead {
+  max-width: 70%;
+}
+.section-3 {
+  position:fixed;
+  background-color: #f9f9f9;
+  padding-left: 10px;
+  padding-top: 260px;
+  margin-left: 1200px;
+  max-width: 280px;
+}
+.list-section-1 {
+  line-height: 30px;
+  margin-left: -45px;
+}
+.margin-li-section-3 {
+  line-height: 30px;
+  margin-left: 28px;
+}
 
 
 /* SEARCHBOX MARGIN */
@@ -228,7 +285,7 @@ hr {
 }
 .image-margin-top {
   position: relative;
-  top: 3px;
+  top: -4px;
 }
 
 /* ========================================================================
@@ -249,81 +306,43 @@ hr {
 }
 .full-height {
   height: 100%;
+  margin-top: 40px;
 }
-.clean-list {
-  list-style:none;
-  margin-left: 0px;
-}
-.list-height {
-  line-height: 30px;
-}
-
 .main-wrapper {
   position:relative;
   width:auto;
   /*height:100vh;*/
 }
-section {
-  padding: 20px;
-  max-width: 80%;
-  margin-left: 10%;
-}
-.section-1 {
-  position:relative;
-  background-color: #f9f9f9;
-  padding-left: 70px;
-  padding-top: 78px;
-}
-.section-2 {
-  margin-top:5px;
-  background-color: #f9f9f9;
-  padding-left: 0px;
-  padding-right: 40px;
-  padding-top: 60px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-}
-.section-3 {
-  background-color: #f9f9f9;
-  padding-left: 140px;
-  padding-top: 78px;
-}
 .margin-alert {
   padding: 20px; 
 }
-
-.md-margin-menu-icon {
-  text-align: right;
-  padding-right: 30px;
-}
-.md-margin-lead {
-  max-width: 70%;
-}
 .margin-line {
   position:relative;
-  left: -3px;
-  top: -6px;
+  left: 28px;
+  top: 10px;
+  margin-bottom: 30px;
 }
-.centrar {
-    position: relative;
-    /*nos posicionamos en el centro del navegador*/
-    top:50%;
-    left:50%;
-    /*determinamos una anchura*/
-    width:400px;
-    /*indicamos que el margen izquierdo, es la mitad de la anchura*/
-    margin-left:-200px;
-    /*determinamos una altura*/
-    height:300px;
-    /*indicamos que el margen superior, es la mitad de la altura*/
-    margin-top:150px;
-    padding:5px;
+.focused-percentage {
+  position: absolute;
+  margin-top:60px;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
 }
-.margin-li-section-3 {
-  margin-left: 28px;
+.position-fixed {
+  position: fixed;
+  background-color: #f9f9f9;
+  padding-right: 50px;
+  border-bottom: 1px solid #c0c0c0;
+  height: 25px;
 }
-
-
+.bg-list-section-1 {
+  background-color: #fff;
+}
+.margin-logo {
+  margin-left: 20px;
+}
 
 
 
