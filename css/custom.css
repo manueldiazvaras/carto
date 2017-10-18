@@ -232,7 +232,7 @@ hr {
   margin-top: 260px;
   margin-left: 1240px;
   max-width: 280px;
-  border-left: 1px solid #bbbbbb;
+  border-left: 1px solid #e8e8e8;
 }
 .list-section-1 {
   line-height: 30px;
@@ -331,7 +331,7 @@ hr {
   position: fixed;
   background-color: #f9f9f9;
   padding-right: 50px;
-  border-bottom: 1px solid #c0c0c0;
+  border-bottom: 1px solid #e8e8e8;
   height: 25px;
 }
 .margin-logo {
