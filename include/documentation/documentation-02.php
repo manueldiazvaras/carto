@@ -1,27 +1,25 @@
-<!-- CONTENT SECTION 2 -->
+<?php 
+	$bgcolor= '02b377';
+	$icon= 'area-chart';
+?>
 
-<h1 class="raleway trescientos">Documentation 6</h2>
-<p class="raleway trescientos m-large grey-text md-panel-box-down-margin">Get familiar with the basic setup and overview of Caro.</p>
-<p class="raleway trescientos small">The simplest way to use a visualization created in CARTO on an external site is as follows. If you already have maps on your webpage and want to add CARTO visualizations to them, read Adding CARTO layers to an existing map.</p>
 
-<img class="margin-searchbox" src="images/carto-2.jpg" width="850px" height="" alt="source code"/>
+<h1 class="raleway trescientos">Documentation 2</h2>
 
 <p class="raleway trescientos m-large grey-text md-panel-box-down-margin">Using the CARTO.js LibraryPermalink</p>
 <p class="raleway trescientos small">CARTO.js can be used to embed a visualization you have designed using CARTO’s user interface, or to dynamically create visualizations from scratch, using your data. If you want to create new maps on your webpage, jump to Creating a visualization from scratch. If you already have maps on your webpage and want to add CARTO visualizations to them, read Adding CARTO layers to an existing map.</p>
 <p class="raleway trescientos small">You can also use the CARTO APIs to create visualizations programmatically. This can be useful when the visualizations react to user interactions. To read more about it, jump to Creating visualizations at runtime.</p>
+<p></p>
 
-<img class="margin-searchbox" src="images/table.png" width="750px" height="" alt="source code"/>
+
+<!-- wrapper image box -->
+<?php 
+    require_once ('/home/mdv31226572/public_html/carto/include/wrapper-image.php');
+?>
+
 
 <p class="raleway trescientos m-large grey-text md-panel-box-down-margin">Other Mapping Libraries</p>
 <p class="raleway trescientos small">We have also made it easy for you to build maps using the mapping library of your choice. Whether you are using Leaflet or something else, our CARTO.js code remains the same. This makes our API documentation simple and straightforward. It also makes it easy for you to consistently develop, or maintain, multiple maps online.</p>
-
-<div class="uk-alert uk-alert-success" data-uk-alert>
-    <img src="images/info.svg" width="30px"/><br />
-    <p class="margin-alert">
-
-    CARTO.js automatically includes dependencies from other mapping libraries (such as Leaflet, jQuery, Mustache, Underscore, and so on). You do not have to manually include these libraries, or worry about other mapping library version control, when you are using CARTO.js. If you need to see which version of other mapping libraries are included, view the vendor folder for each CARTO.js release.</p>
-</div>
-<br />
 
 <p class="raleway trescientos m-large grey-text md-panel-box-down-margin">Creating a Visualization from ScratchPermalink</p>
 <p class="raleway trescientos small">This is the easiest way to quickly get a CARTO map onto your webpage. Use this method when there is no map in your application, and you want to add the visualization to hack over it. CARTO.js handles all the details of loading a map interface, basemap, and your CARTO visualization.</p>

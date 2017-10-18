@@ -3,6 +3,7 @@
 
 <head>
 <title>Code test - Manuel Díaz</title>
+
 <!-- INSERT LINKS -->
 <?php 
     require_once ('/home/mdv31226572/public_html/carto/include/links.html');
@@ -12,12 +13,13 @@
     <body>
         <!-- MOBILE MENU -->
         <?php 
-            require_once ('/home/mdv31226572/public_html/carto/include/mobile-menu.php');
+            /*require_once ('/home/mdv31226572/public_html/carto/include/mobile-menu.php');*/
         ?>
+
         <header>
       		<!-- NAV MENU -->
 			<?php 
-    			require_once ('/home/mdv31226572/public_html/carto/include/header.php');
+    			/*require_once ('/home/mdv31226572/public_html/carto/include/header.php');*/
 			?>
         </header>
 
@@ -27,11 +29,11 @@
                 <a href="intro.php">
                     <div class="uk-panel uk-panel-box uk-widht-1-4">
                         <h3 class="uk-panel-title raleway grey-text"><i class="uk-icon uk-icon-code icon-margin-right carto-green"></i>Code test</h3>
-                        <p class="grey-text raleway menu-size">Link to CODE TEST by <span class="carto-green">Manuel Díaz</span></p>
+                        <p class="grey-text raleway x-small">Link to CODE TEST by <span class="carto-green">Manuel Díaz</span></p>
                     </div>
                 </a>
             </div>
-        <section>
+        </section>
     </body>
 </html>
 

@@ -1,4 +1,7 @@
-<!-- CONTENT SECTION 2 -->
+<?php 
+	$bgcolor= 'ffeeaa';
+	$icon= 'bar-chart';
+?>
 
 <h1 class="raleway trescientos">Documentation 3</h2>
 
@@ -6,7 +9,10 @@
 
 <p class="raleway trescientos small">We have also made it easy for you to build maps using the mapping library of your choice. Whether you are using Leaflet or something else, our CARTO.js code remains the same. This makes our API documentation simple and straightforward.</p>
 
-<img class="margin-searchbox" src="images/carto-5.jpg" width="850px" height="" alt="source code"/>
+<!-- wrapper image box -->
+<?php 
+    require_once ('/home/mdv31226572/public_html/carto/include/wrapper-image.php');
+?>
 
 <p class="raleway trescientos m-large grey-text md-panel-box-down-margin">Other Mapping Libraries</p>
 <p class="raleway trescientos small">We have also made it easy for you to build maps using the mapping library of your choice. Whether you are using Leaflet or something else, our CARTO.js code remains the same. This makes our API documentation simple and straightforward. It also makes it easy for you to consistently develop, or maintain, multiple maps online.</p>

@@ -1,7 +1,3 @@
-
-
-
-<!-- MENU CATEGORY 1 -->
 <div class="position-fixed">
     <h2 class="raleway quinientos small"><i class="uk-icon uk-icon-bookmark-o icon-margin-right carto-green"></i>DOCUMENTATION</h2>
 </div>

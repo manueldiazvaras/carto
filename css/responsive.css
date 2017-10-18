@@ -3,8 +3,8 @@
  ========================================================================== */
 /* RESPONSIVE */
 
-
 @media screen and (max-width: 980px) {
+
   .md-fixed-menu {
     display: none;
     position: fixed;
@@ -37,8 +37,8 @@
   }
   section {
     display: block;
-    width: 95%;
-    margin: 100px 0px 0px 10px;
+    width: 88%;
+    margin: 170px 20px 20px 20px;
   }
   .section-1 {
     display: none;
@@ -84,26 +84,28 @@
     left: 0px;
     background-color: #f9f9f9;
   }
-  section {
-    display: block;
-    width: 95%;
-    margin: 100px 0px 0px 10px;
-  }
   .md-margin-lead {
     max-width: 95%;
   }
-  .section-1 {
-    margin-top: 60px;
-    margin-left: 45px;
-    position: fixed;
-    background-color: #f9f9f9;
-    padding-left: 0px;
-    padding-top: 0px;
-    overflow: scroll;
-    overflow-x:hidden;
-    height: 40%;
-    width: 230px;
+  section {
+    display: block;
+    width: 85%;
+    margin: 170px 90px 0px 80px;
   }
+  .section-1 {
+    display: none;
+  }
+   .section-2 {
+    width: 95%;
+    margin-left: 10px;
+    margin-top: 0px;
+    background-color: #f9f9f9;
+    padding-left: 20px;
+    padding-right: 5%;
+    padding-top: 45px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  } 
 
 }
 
@@ -121,9 +123,28 @@
   }
   section {
     display: block;
-    width: 92%;
-    margin: 170px 0px 0px 50px;
+    width: 94%;
+    margin: 170px 0px 20px 75px;
   }
 }
+@media screen and (max-width: 980px) {
+  section {
+    display: block;
+    width: 98%;
+    margin: 120px 90px 0px 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper-box-image {
+    display: none;
+    }
+  section {
+    display: block;
+    width: 98%;
+    margin: 120px 90px 0px 15px;
+  }
+}
+
 
 

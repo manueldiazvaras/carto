@@ -1,4 +1,3 @@
-<!-- OFFCANVAS MAIN MENU -->
 <div id="offcanvas-3" class="uk-offcanvas">
 
     <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">

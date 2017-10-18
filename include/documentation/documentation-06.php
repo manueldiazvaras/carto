@@ -1,8 +1,16 @@
-<h1 class="raleway trescientos">Documentation 1</h2>
+<?php 
+	$bgcolor= 'ecfe70';
+	$icon= 'cloud-upload';
+?>
+
+<h1 class="raleway trescientos">Documentation 6</h2>
 <p class="raleway trescientos m-large grey-text md-panel-box-down-margin">Get familiar with the basic setup and overview of Caro.</p>
 <p class="raleway trescientos small">The simplest way to use a visualization created in CARTO on an external site is as follows. If you already have maps on your webpage and want to add CARTO visualizations to them, read Adding CARTO layers to an existing map.</p>
 
-<img class="margin-searchbox" src="images/code.png" width="750px" height="" alt="source code"/>
+<!-- wrapper image box -->
+<?php 
+    require_once ('/home/mdv31226572/public_html/carto/include/wrapper-image.php');
+?>
 
 <p class="raleway trescientos m-large grey-text md-panel-box-down-margin">Using the CARTO.js LibraryPermalink</p>
 <p class="raleway trescientos small">CARTO.js can be used to embed a visualization you have designed using CARTO’s user interface, or to dynamically create visualizations from scratch, using your data. If you want to create new maps on your webpage, jump to Creating a visualization from scratch. If you already have maps on your webpage and want to add CARTO visualizations to them, read Adding CARTO layers to an existing map.</p>

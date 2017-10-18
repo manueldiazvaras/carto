@@ -1,5 +1,4 @@
-<!-- MAIN MENU RESPONSIVE -->
-<div class="mobile-menu uk-align-center">
+<div class="mobile-menu">
     <div class="uk-grid">
 
         <!-- LOGOTIPO -->

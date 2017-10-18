@@ -1,5 +1,3 @@
-<!-- list menu section - 1 -->
-
     <li id='<?php $id_page = "00"; ?>' class=""><a href="documentation.php?id='<?php echo $id_page; ?>' ">Introduction</a></li>
     <li id='<?php $id_page = "01"; ?>' class=""><a href="documentation.php?id='<?php echo $id_page; ?>' ">Documentation 1</a></li>
     <li id='<?php $id_page = "02"; ?>' class=""><a href="documentation.php?id='<?php echo $id_page; ?>' ">Documentation 2</a></li>
