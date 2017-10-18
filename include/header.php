@@ -1,3 +1,10 @@
+<!-- INSERTAMOS SCRIPT DETECTAR DISPOSITIVO -->
+<?php 
+    require_once ('/home/mdv31226572/public_html/carto/source/Mobile_Detect.php');
+    $detect = new Mobile_Detect();
+?>
+
+
 <div id="offcanvas-3" class="uk-offcanvas">
 
     <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">

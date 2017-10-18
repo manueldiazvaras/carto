@@ -123,8 +123,8 @@
   }
   section {
     display: block;
-    width: 94%;
-    margin: 170px 0px 20px 75px;
+    width: 90%;
+    margin: 170px 0px 20px 70px;
   }
 }
 @media screen and (max-width: 980px) {
@@ -137,7 +137,7 @@
 
 @media screen and (max-width: 600px) {
   .wrapper-box-image {
-    display: none;
+    /*display: none;*/
     }
   section {
     display: block;

@@ -25,7 +25,7 @@
 
             <!-- SUBMENU -->
             <?php 
-                require_once ('/home/mdv31226572/public_html/carto/include/submenu.html');
+                require_once ('/home/mdv31226572/public_html/carto/include/submenu.php');
             ?>
 
         <section>

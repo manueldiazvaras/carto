@@ -1,6 +1,6 @@
 <?php 
-	$bgcolor= 'ecfe70';
-	$icon= 'cloud-upload';
+	$bgcolor= '707afe';
+	$icon= 'folder-open-o';
 ?>
 
 <h1 class="raleway trescientos">Documentation 6</h2>
