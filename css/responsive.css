@@ -92,9 +92,6 @@
     width: 85%;
     margin: 170px 90px 0px 80px;
   }
-  .section-1 {
-    display: none;
-  }
    .section-2 {
     width: 95%;
     margin-left: 10px;
@@ -109,7 +106,7 @@
 
 }
 
-@media screen and (min-width: 1281px) {
+@media screen and (min-width: 1279px) {
   .mobile-menu {
     display: none;
   }
@@ -146,5 +143,9 @@
   }
 }
 
-
+@media tv and (min-width: 600px) and (max-width: 980px) {
+  section-1 {
+    display: none;
+  }
+}
 
